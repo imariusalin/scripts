@@ -10,6 +10,7 @@ while true; do
 read -rsn1 input
 if [ "$input" = "x" ]; then
     echo "Bye Bye!"
+    exit
 fi
 done
 
